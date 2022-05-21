@@ -5,79 +5,79 @@
 
 ## Results
 o	Data Preprocessing
-	The target variable considered for the model was “IS_SUCCESSFUL” because it indicates the success of a project
+     	The target variable considered for the model was “IS_SUCCESSFUL” because it indicates the success of a project
 
-	The variables considered to be featured for the model included:
--	EIN
--	NAME
--	APPLICATION_TYPE
--	AFFILIATION
--	CLASSIFICATION
--	USE_CASE
--	ORGANIZATION
--	STATUS
--	INCOME_AMT
--	SPECIAL_CONSIDERATIONS
--	ASK_AMT
+     	The variables considered to be featured for the model included:
+          -	EIN
+          -	NAME
+          -	APPLICATION_TYPE
+          -	AFFILIATION
+          -	CLASSIFICATION
+          -	USE_CASE
+          -	ORGANIZATION
+          -	STATUS
+          -	INCOME_AMT
+          -	SPECIAL_CONSIDERATIONS
+          -	ASK_AMT
 
-	EIN and NAME were removed because these variables were neither targets nor features
+     	EIN and NAME were removed because these variables were neither targets nor features
 
 o	Compiling, Training, and Evaluating the Model
-	I started with 2 hidden node layers:
--	First = 80 neurons
--	Second = 30 neurons
--	These count figures were general benchmarks that were reevaluated later in this analysis
--	Each node layer included a relu activation function
-•	This function was chosen over others because it overcomes mathematical obstacles to solve problems
+     	I started with 2 hidden node layers:
+          -	First = 80 neurons
+          -	Second = 30 neurons
+          -	These count figures were general benchmarks that were reevaluated later in this analysis
+          -	Each node layer included a relu activation function
+               •	This function was chosen over others because it overcomes mathematical obstacles to solve problems
 
-	The target model performance level of 75% accuracy was not achieved
+     	The target model performance level of 75% accuracy was not achieved
  
 
-	The steps below describe my attempts at improving the model’s performance:
+     	The steps below describe my attempts at improving the model’s performance:
 
-Attempt 1:
--	The Status and Special Considerations variables were removed
+               Attempt 1:
+               -	The Status and Special Considerations variables were removed
 
--	The number of neurons was changed in each layer:
-o	1 = 200
-o	2 = 100
-o	3 = 50
+               -	The number of neurons was changed in each layer:
+                    o	1 = 200
+                    o	2 = 100
+                    o	3 = 50
 
--	The output layer was changed to tanh
- 
+               -	The output layer was changed to tanh
 
-Attempt 2:
--	The Status and Special Considerations variables were removed
 
--	The number of neurons was changed in each layer:
-o	1 = 200
-o	2 = 100
-o	3 = 50
+               Attempt 2:
+               -	The Status and Special Considerations variables were removed
 
--	All 3 hidden layers were changed to tanh
+               -	The number of neurons was changed in each layer:
+                    o	1 = 200
+                    o	2 = 100
+                    o	3 = 50
 
--	The output layer was changed to tanh
- 
+               -	All 3 hidden layers were changed to tanh
 
-Attempt 3:
--	The Status and Special Considerations variables were removed
+               -	The output layer was changed to tanh
 
--	Two extra hidden node layers were added
 
--	The number of neurons was changed in each layer:
-o	1 = 400
-o	2 = 200
-o	3 = 100
-o	4 = 50
-o	5 = 25
+               Attempt 3:
+               -	The Status and Special Considerations variables were removed
 
--	All 5 hidden node layers were changed to relu
+               -	Two extra hidden node layers were added
 
--	The output layer was changed to relu
+               -	The number of neurons was changed in each layer:
+                    o	1 = 400
+                    o	2 = 200
+                    o	3 = 100
+                    o	4 = 50
+                    o	5 = 25
 
--	The number of training epochs was changed to 60
+               -	All 5 hidden node layers were changed to relu
 
--	The number of callback training epochs was changed to 200
+               -	The output layer was changed to relu
+
+               -	The number of training epochs was changed to 60
+
+               -	The number of callback training epochs was changed to 200
  
 
 ## Summary:
