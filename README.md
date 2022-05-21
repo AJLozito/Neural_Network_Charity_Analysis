@@ -35,9 +35,9 @@ o	Compiling, Training, and Evaluating the Model
                •	This function was chosen over others because it overcomes mathematical obstacles to solve problems
 
          The target model performance level of 75% accuracy was not achieved
-     ![image](https://user-images.githubusercontent.com/96176817/169627664-42d1f513-4114-4f79-969e-f47d6ee647ef.png)
-     <img src="https://user-images.githubusercontent.com/96176817/169627664-42d1f513-4114-4f79-969e-f47d6ee647ef.png" class="img-responsive" alt=""> </div>
-     ![ScreenShot](169627664-42d1f513-4114-4f79-969e-f47d6ee647ef.png)
+![image](https://user-images.githubusercontent.com/96176817/169656913-5fb2974a-fb27-4053-aaa2-a09186124e84.png)
+
+
 
 
          The steps below describe my attempts at improving the model’s performance:
