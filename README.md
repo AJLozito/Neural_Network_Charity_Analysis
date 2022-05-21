@@ -61,7 +61,7 @@ o	Compiling, Training, and Evaluating the Model
                -	All 3 hidden layers were changed to tanh
 
                -	The output layer was changed to tanh
-               ![image](https://user-images.githubusercontent.com/96176817/169627300-f93be936-76ee-4f4e-bbed-ca37f2958da4.png)
+               ![image](https://user-images.githubusercontent.com/96176817/169627610-6b25e72a-f522-4ee4-9684-76204f3dd833.png)
 
                Attempt 3:
                -	The Status and Special Considerations variables were removed
