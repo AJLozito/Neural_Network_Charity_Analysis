@@ -36,6 +36,8 @@ o	Compiling, Training, and Evaluating the Model
 
          The target model performance level of 75% accuracy was not achieved
      ![image](https://user-images.githubusercontent.com/96176817/169627664-42d1f513-4114-4f79-969e-f47d6ee647ef.png)
+     <img src="https://user-images.githubusercontent.com/96176817/169627664-42d1f513-4114-4f79-969e-f47d6ee647ef.png" class="img-responsive" alt=""> </div>
+
 
          The steps below describe my attempts at improving the model’s performance:
 
